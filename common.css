@@ -116,8 +116,8 @@ header a {
 }
 .balloon img {
     width: 100%;
+    max-width: 300px;
 }
-
 .imgwrapper * {
     width: 100%;
 }
@@ -127,7 +127,7 @@ header a {
 .description {
     color: #777;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 420px) {
     .imgwrapper {
         width: 90%;
         margin: 0 auto;
@@ -140,7 +140,7 @@ header a {
         margin: 5px;
     }
 }
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 421px) {
     .imgwrapper {
         width: 60%;
         margin: 0 auto;
