@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #a9b7c0;
+}
+header {
+    position: relative;
+    padding-left: 10px;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+    color: #fff;
+}
+header img {
+    width: 360px;
+}
+header a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.fuji {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.5;
+}
+.masa {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1;
+}
+.work {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: calc(100% - 20px);
+    font-size: 14px;    }
+    letter-spacing: 0.05em;
+}
+/*ABOUT用縦並び*/
+.aboutwrapper {
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 20px);
+    font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+    .reelwrapper {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 641px) {
+    .reelwrapper {
+        width: 640px;
+    }
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 1.5em 10px 1.5em 15px;
+}
+.balloon {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0 1.5em 15px;
+    padding: 10px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #777;
+    background: #fff;
+}
+.balloon:before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: -25px;
+    margin-top: -15px;
+    border: 10px solid transparent;
+    border-right: 15px solid #fff;
+}
+.balloon p {
+  margin: 0;
+  padding: 0;
+}
+
+.imgwrapper * {
+    width: 100%;
+}
+.imgwrapper img {
+    width: 100%;
+}
+.description {
+    color: #777;
+}
+@media screen and (max-width: 414px) {
+    .imgwrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .description {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .description p {
+        margin: 5px;
+    }
+}
+@media screen and (min-width: 415px) {
+    .imgwrapper {
+        width: 60%;
+        margin: 0 auto;
+        max-width: 650px;
+    }
+    .description {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .description p {
+        margin: 5px;
+    }
+}
+.content {
+    margin-top: 60px;
+}
+@media screen and (max-width: 355px) {
+    .box {
+        width: 30%;
+        position: relative;
+        margin: 5px;
+    }
+}
+@media screen and (min-width: 356px) {
+    .box {
+        width: 30%;
+        max-width: 200px;
+        position: relative;
+        margin: 10px;
+    }
+}
+.inside {
+    width: 100%;
+    top: 0;
+    padding: 100% 0 0;
+    border: 1px solid #fff;
+}
+.inside::hover {
+    background-color: #fff;
+    opacity: 0;
+}
+.in1 {
+    background: #c7d8c6;
+}
+.in2 {
+    background: #efd9c1;
+}
+.in3 {
+    background: #cccbc6;
+}
+
+.box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.box p {
+    color: #fff;
+    font-weight: bold;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+.footercontent {
+    margin: 60px 0 100px 0;
+}
+.contenttitle {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.contenttitle p {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1em;
+    border-bottom: 1px solid #fff;
+    width: 70%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+@media screen and (min-width: 371px) {
+    .contenttitle span {
+        letter-spacing: 0.2em;
+    }
+}
+footer {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    background: #60676b;
+    color: #fff;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    line-height: 20px;
+}
