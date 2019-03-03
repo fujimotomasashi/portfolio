@@ -60,6 +60,18 @@ header a {
     font-size: 14px;
 }
 
+.newswrapper {
+    width: 
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 20px);
+    font-size: 13px;
+}
+
+
 @media screen and (max-width: 640px) {
     .reelwrapper {
         width: 100%;
@@ -74,22 +86,25 @@ header a {
 .icon {
     width: 60px;
     height: 60px;
-    margin: 1.5em 10px 1.5em 15px;
+    margin: 0 10px 0 15px;
+    display: block;
+    float: left;
 }
 .balloon {
     position: relative;
     display: inline-block;
-    margin: 1.5em 0 1.5em 15px;
+    margin: 0.5em 0 1.5em 15px;
     padding: 10px 10px;
     min-width: 120px;
     max-width: 100%;
     color: #777;
     background: #fff;
+    width: calc(100% - 120px);
 }
 .balloon:before {
     content: "";
     position: absolute;
-    top: 60%;
+    top: 30px;
     left: -25px;
     margin-top: -15px;
     border: 10px solid transparent;
@@ -98,6 +113,9 @@ header a {
 .balloon p {
   margin: 0;
   padding: 0;
+}
+.balloon img {
+    width: 100%;
 }
 
 .imgwrapper * {
